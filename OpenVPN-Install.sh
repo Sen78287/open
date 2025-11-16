@@ -35,18 +35,6 @@ errorLogo='
 =================================================================='
 
 ##################################################
-echo "$welcome"
-echo " 本脚本适用于Centos7.X系列，其他版本请勿尝试！！！"
-read -p ' 请输入妖火论坛网址：' PASSWD
-key=`echo -n $PASSWD|md5sum`
-if [[ ${key%%\ *} == $pass ]]
-    then
-		echo -e "\e[31m 验证成功！\e[0m"
-    else
-        echo -e "\e[31m 验证失败！\e[0m"		
-		echo "$errorLogo"	
-		exit 0
-fi
 
 #更换阿里云源
 echo -e "\033[35m 正在更换阿里云源... \033[0m"
