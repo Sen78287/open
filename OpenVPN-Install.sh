@@ -14,9 +14,9 @@ fi
 
 #全局定义
 folder='OpenVPN'
-mirrorHost='http://63.223.84.40'
+mirrorHost='https://github.com/Sen78287/open.git'
 ipAddress=`curl -s http://members.3322.org/dyndns/getip`;
-pass=`wget http://63.223.84.40/OpenVPN/pass.php -O - -q ; echo`;
+pass=`wget https://github.com/Sen78287/open.git/pass.php -O - -q ; echo`;
 
 welcome='
 ==================================================================
