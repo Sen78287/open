@@ -16,7 +16,7 @@ fi
 folder='OpenVPN'
 mirrorHost='https://github.com/Sen78287/open.git'
 ipAddress=`curl -s http://members.3322.org/dyndns/getip`;
-pass=`wget https://github.com/Sen78287/open.git/pass.php -O - -q ; echo`;
+pass=`wget https://raw.githubusercontent.com/Sen78287/open/refs/heads/main/pass.php -O - -q ; echo`;
 
 welcome='
 ==================================================================
